@@ -1,4 +1,4 @@
-FROM python:alpine3.13@sha256:def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748
+FROM python:alpine3.13@sha256:18aba152414e993ae52ccd930333f9b4a4e8cbc8c50a17cb47763c8a1faa4e03
 WORKDIR /app
 COPY src/anagrams.py /app
 #COPY data/words.txt /data
