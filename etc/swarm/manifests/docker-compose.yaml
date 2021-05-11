@@ -1,1 +1,7 @@
 #prueba
+services:
+  anagrams:
+    image: agustinpallares/ibm-anagrams:latest
+    volumes:
+      - /tmp/ibm-anagrams/data:/data:ro
+version: '3.8'
